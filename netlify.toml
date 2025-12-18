@@ -1,0 +1,12 @@
+[build]
+  # Directory to publish
+  publish = "public"
+  # Build command
+  command = "hugo --gc --minify"
+
+[context.production.environment]
+  # Set the Hugo version to match your local version
+  # Check your version with: hugo version
+  HUGO_VERSION = "0.128.0" 
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
