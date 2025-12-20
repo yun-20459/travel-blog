@@ -2,3 +2,6 @@ baseURL = 'https://stalwart-tapioca-5bb36b.netlify.app/'
 languageCode = 'zh-tw'
 title = '我的旅遊日誌'
 theme = 'PaperMod'
+
+[params]
+  comments = true
